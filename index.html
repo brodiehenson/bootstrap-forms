@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>"Vogue" Quiz</title>
+  </head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                
+                <h1 class="pt-5 pb-3">"Vogue" Quiz</h1>
+                
+                <p class="py-3">How well do you know Madonna's No. 1 hit song "Vogue"? Take this quiz to find out, then make sure to "strike a pose!" Not sure you're quite en vogue with "Vogue"? Check out information about the song here: <a href="https://en.wikipedia.org/wiki/Vogue_(Madonna_song)" target="_blank">Wikipedia on Vogue.</a></p>
+               
+                <form>
+                    
+                    <div class="mb-3">
+                        <label for="q1" class="form-label">“Vogue” is from what soundtrack album?</label>
+                        <input type="text" class="form-control" name="q1" id="q1">
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="q2" class="pt-3 form-label">What year was “Vogue” released?</label>
+                        <input type="text" class="form-control" name="q2" id="q2">
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="q3" class="pt-3 form-label">Madonna took inspiration from what trend for "Vogue"?</label>
+                        <textarea class="form-control" id="q3" name="q3" rows="5"></textarea>
+                    </div>
+                    
+                    <div class="pt-3">Who did Madonna collaborate with for "Vogue"?</div>
+                    <div class="pt-1 form-check">
+                        <div class="pt-1 form-check">
+                            <input class="form-check-input" type="radio" name="q4" value="Shep Pettibone"> 
+                            <label class="form-check-label">Shep Pettibone</label>
+                        </div>
+
+                        <div class="pt-1 form-check">
+                                <input class="form-check-input" type="radio" name="q4" value="Nile Rodgers">
+                                <label class="form-check-label">Nile Rodgers</label>
+                        </div>
+                        
+                        <div class="pt-1 form-check">
+                                <input class="form-check-input" type="radio" name="q4" value="Stephen Bray"> <label class="form-check-label">Stephen Bray</label>
+                        </div>
+                        
+                        <div class="pt-1 form-check">
+                                <input class="form-check-input"type="radio" name="q4" value="Patrick Leonard"> 
+                                <label class="form-check-label">Patrick Leonard</label>
+                        </div>
+                    </div>
+                    
+                    <div class="pt-4">Which of these classic Hollywood actors did Madonna name-drop in "Vogue"? (Check all that apply)</div>
+                    
+                    <div class="pt-1 form-check">
+                        <div class="pt-1 form-check">
+                            <input class="form-check-input" type="checkbox" name="q5" value="Marilyn Monroe">
+                            <label class="form-check-label">Marilyn Monroe</label>
+                        </div>
+
+                        <div class="pt-1 form-check">
+                            <input class="form-check-input" type="checkbox" name="q5" value="Ingrid Bergman">
+                            <label class="form-check-label">Ingrid Bergman</label>
+                        </div>
+
+                        <div class="pt-1 form-check">
+                            <input class="form-check-input" type="checkbox" name="q5" value="Jimmy Dean">
+                            <label class="form-check-label">Jimmy Dean</label>
+                        </div>
+
+                        <div class="pt-1 form-check">
+                            <input class="form-check-input" type="checkbox" name="q5" value="Marlon Brando">
+                            <label class="form-check-label">Marlon Brando</label>
+                        </div>
+                    </div>
+
+                    <div class="pt-3">What is the opening line of "Vogue"?</div>
+
+                    <select class="form-select" aria-label="songLyric" name="correctSongLyric" id="correctSongLyric" size="4" multiple>
+                        <option value="option1">"Strike a pose!"</option>
+                        <option value="option2">"Get up on the dance floor"</option>
+                        <option value="option3">"What are you lookin' at?"</option>
+                        <option value="option4">"You know you can do it"</option>
+                        <option value="option5">"Vogue"</option>
+                        <option value="option6">"Let your body move to the music"</option>
+                    </select>
+
+                    <input class="mt-3 mb-5 me-2 btn btn-primary" type="submit" value="Submit">
+
+                    <input class="mt-3 mb-5 btn btn-secondary" type="reset" value="Reset">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
